@@ -1,0 +1,18 @@
+*{ font:11px/1.35em "Lucida Grande",Tahoma,Arial,Sans-serif; color:#282828; }
+body{ background:azure; margin:0; padding:0; min-width:980px; }
+div{ padding:0; margin:0; border:0; }
+div#header{ height:200px; min-width:960px; background:#fff url("a.jpg") repeat; background-position:50% -10px; border:0; -moz-box-shadow:0 7px 7px rgba(0,0,0,0.2); -moz-border-radius-bottomleft:15px; -moz-border-radius-bottomright:15px; -webkit-box-shadow:0 7px 7px rgba(0,0,0,0.2); -webkit-border-bottom-left-radius:15px; -webkit-border-bottom-right-radius:15px; border-bottom-left-radius:15px; border-bottom-right-radius:15px; margin:0 7px; }
+div#wrap{ width:920px; margin:0 auto; padding:10px; padding-top:50px; min-height:550px; overflow:hidden; background:#fff; border:1px solid #aff; border-top:0; -moz-box-shadow:0 7px 7px rgba(0,0,0,0.2); -webkit-box-shadow:0 7px 7px rgba(0,0,0,0.2); }
+div#footer{ text-align:center; width:920px; margin:10px auto; padding:15px 10px 7px 10px; background:#fff; border:1px solid #aff; -moz-box-shadow:0 7px 7px rgba(0,0,0,0.2); -moz-border-radius-bottomleft:15px; -moz-border-radius-bottomright:15px; -webkit-box-shadow:0 7px 7px rgba(0,0,0,0.2); -webkit-border-bottom-left-radius:15px; -webkit-border-bottom-right-radius:15px; border-bottom-left-radius:15px; border-bottom-right-radius:15px; text-shadow:1px 0 1px #ddd; }
+div#mainmenu{ display:block; margin:0 auto; border:1px solid #aff; -moz-box-shadow:0 7px 7px rgba(0,0,0,0.2); -moz-border-radius:15px; -webkit-box-shadow:0 7px 7px rgba(0,0,0,0.2); -webkit-border-radius:15px; border-radius:15px; width:900px; height:40px; position:relative; top:180px; background:#fff; }
+div#contentpanel{ display:block; min-height:550px; padding:10px; text-shadow:0 0 1px #f00; }
+fieldset{ border:1px solid #c0c0c0; background:#f5fff5; padding:15px; padding-top:20px; }
+legend{ border:1px solid #c0c0c0; padding:3px 7px; font-weight:bold; background:#fff; -moz-box-shadow:0 7px 7px rgba(0,0,0,0.1); -webkit-box-shadow:0 7px 7px rgba(0,0,0,0.1); -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+label{ margin-right:10px; font-weight:bold; color:#333333; }
+input[type=text], select{ padding:3px 6px; border:1px solid #b0b0b0; }
+select{ padding-right:3px; }
+option{ margin:2px 6px; }
+td{ padding:2px; vertical-align:text-top; }
+input[type=submit], input[type=reset]{ font-weight:bold; margin-top:10px; padding:3px 8px; }
+a{ color:#049; text-decoration:none; }
+a:hover{ background:#800; color:white; }
